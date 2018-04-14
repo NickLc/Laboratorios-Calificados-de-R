@@ -3,7 +3,9 @@ title: "Laboratorio calificado 1 de R - CM-274"
 author: "Lázaro Camasca Edson Nick  cod: 20160468E"
 output: html_notebook
 ---
-
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 #Pregunta 4
 
 ####4.(a) Identifica la clase de los siguientes objetos. Para cada objeto, también indica si la clase está
