@@ -31,6 +31,9 @@
  
 # Instalamos el paquete car
  install.packages("car")
+# Habilitamos el paquete car
+ library("car")
+
  Duncan  # Data frame que proporciona datos historicos sobre
           # el prestigio y otras características de 45 ocupaciones de los Estados Unidos en 1950
  v1 <- 1:100
@@ -66,4 +69,5 @@
  
 # Leemos el archivo Ejercicio_df.txt 
  lista.de.dataframes <- read.table(file ="Ejercicio_df.txt")
+ 
  
